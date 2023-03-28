@@ -1,4 +1,5 @@
 const Form = ({client}) => {
+    //console.log(client)
     return (
         <>
             <div className="mb-4">
@@ -12,6 +13,7 @@ const Form = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Name costumer"
                     name="name"
+                    defaultValue={client?.name}
                 />
             </div>
             <div className="mb-4">
@@ -25,6 +27,7 @@ const Form = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Company costumer"
                     name="company"
+                    defaultValue={client?.company ?? ' '}
                 />
             </div>
 
@@ -39,6 +42,7 @@ const Form = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Email costumer"
                     name="email"
+                    defaultValue={client?.email}
                 />
             </div>
 
@@ -53,6 +57,7 @@ const Form = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50"
                     placeholder="Phone number"
                     name="phone"
+                    defaultValue={client?.phone ?? ' '}
                 />
             </div>
 
@@ -68,6 +73,7 @@ const Form = ({client}) => {
                     className="mt-2 block w-full p-3 bg-gray-50 h-40 align-self"
                     placeholder="Comments costumer"
                     name="comments"
+                    defaultValue={client?.comments ?? ' '}
                 />
             </div>
         </>

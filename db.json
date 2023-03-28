@@ -2,7 +2,7 @@
   "clients": [
     {
       "name": "Juan",
-      "company": "Endesa",
+      "company": "Natura",
       "email": "mail@mail.com",
       "phone": "102013313",
       "comments": "Nueva Nota",
@@ -17,18 +17,20 @@
       "id": 2
     },
     {
-      "id": 4,
       "name": "Miguel",
-      "phone": 319381983,
+      "company": "Endesa",
       "email": "mail@mail.com",
-      "company": "Endesa"
+      "phone": "319381983",
+      "comments": "Karen desea una REST API",
+      "id": 4
     },
     {
-      "id": 5,
       "name": "Pedro",
-      "phone": 1398198938,
+      "company": "Endesa",
       "email": "mail@mail.com",
-      "company": "Endesa"
+      "phone": "1398198938",
+      "comments": " ",
+      "id": 5
     },
     {
       "name": "Juan",
@@ -47,68 +49,12 @@
       "id": 7
     },
     {
-      "name": "pepe",
-      "company": "pepetacos",
-      "email": "pepetacos@pepetacos.com",
-      "phone": "5454",
-      "comments": "adsasda",
+      "name": "Josh",
+      "company": "Tesla",
+      "email": "josh@josh.com",
+      "phone": " ",
+      "comments": " ",
       "id": 8
-    },
-    {
-      "name": "pepe",
-      "company": "pepetacos",
-      "email": "pepetacos@pepetacos.com",
-      "phone": "5454",
-      "comments": "adsasda",
-      "id": 9
-    },
-    {
-      "name": "pepe",
-      "company": "pepetacos",
-      "email": "pepetacos@pepetacos.com",
-      "phone": "5454",
-      "comments": "adsasda",
-      "id": 10
-    },
-    {
-      "name": "pepe",
-      "company": "pepetacos",
-      "email": "pepetacos@pepetacos.com",
-      "phone": "5454",
-      "comments": "adsasda",
-      "id": 11
-    },
-    {
-      "name": "pepe",
-      "company": "pepetacos",
-      "email": "pepetacos@pepetacos.com",
-      "phone": "5454",
-      "comments": "adsasda",
-      "id": 12
-    },
-    {
-      "name": "pepe",
-      "company": "pepetacos",
-      "email": "pepetacos@pepetacos.com",
-      "phone": "5454",
-      "comments": "adsasda",
-      "id": 13
-    },
-    {
-      "name": "pepe",
-      "company": "pepetacos",
-      "email": "pepetacos@pepetacos.com",
-      "phone": "5454",
-      "comments": "adsasda",
-      "id": 14
-    },
-    {
-      "name": "pepe",
-      "company": "pepetacos",
-      "email": "pepetacos@pepetacos.com",
-      "phone": "fhhfh",
-      "comments": "fjfjfg",
-      "id": 15
     }
   ]
 }
