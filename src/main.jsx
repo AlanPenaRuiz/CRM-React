@@ -3,11 +3,14 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/layouts";
-import NewClient, {action as newClientAction} from "./pages/newClient";
+import NewClient, { action as newClientAction } from "./pages/newClient";
 import Index /*, {loader as clientLoader} */ from "./pages/index";
-import ErrorPage from './components/errorPage';
-//import EditClient, {loader as editClientLoader, action as editClientAction} from './pages/editClient';
-import EditClient, {action as editClientAction, loader as editClientLoader} from "./pages/editClient";
+import ErrorPage from "./components/errorPage";
+import EditClient, {
+  action as editClientAction,
+  loader as editClientLoader,
+} from "./pages/editClient";
+import {action as removeClientAction} from './components/client'
 
 const router = createBrowserRouter([
   {
@@ -17,22 +20,26 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Index />,
-        errorElement: <ErrorPage />
+        errorElement: <ErrorPage />,
         //loader: clientLoader,
       },
       {
         path: "/clients/new",
         element: <NewClient />,
         action: newClientAction,
-        errorElement: <ErrorPage />
+        errorElement: <ErrorPage />,
       },
       {
-        path: '/clients/:clientId/edit',
+        path: "/clients/:clientId/edit",
         element: <EditClient />,
         loader: editClientLoader,
         action: editClientAction,
-        errorElement: <ErrorPage />
-      }
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: '/clients/:clientId/remove',
+        action: removeClientAction,
+      },
     ],
   },
 ]);

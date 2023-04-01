@@ -1,0 +1,70 @@
+{
+  "clients": [
+    {
+      "name": "Karen",
+      "company": "Ministerio de defensa",
+      "email": "karen_nuevo@gov.com",
+      "phone": "138198313",
+      "comments": "Karen desea una REST API",
+      "id": 200
+    },
+    {
+      "id": 400,
+      "name": "Miguel",
+      "phone": 319381983,
+      "email": "miguel@gov.com",
+      "company": "Ministerio de defensa"
+    },
+    {
+      "id": 500,
+      "name": "Pedro",
+      "phone": 1398198938,
+      "email": "pedro@gov.com",
+      "company": "Ministerio de defensa"
+    },
+    {
+      "name": "Karen",
+      "company": "Ministerio de defensa",
+      "email": "karen_nuevo@gov.com",
+      "phone": "138198313",
+      "comments": "Karen desea una REST API",
+      "id": 2000
+    },
+    {
+      "id": 4000,
+      "name": "Miguel",
+      "phone": 319381983,
+      "email": "miguel@gov.com",
+      "company": "Ministerio de defensa"
+    },
+    {
+      "id": 5000,
+      "name": "Pedro",
+      "phone": 1398198938,
+      "email": "pedro@gov.com",
+      "company": "Ministerio de defensa"
+    },
+    {
+      "name": "Karen",
+      "company": "Ministerio de defensa",
+      "email": "karen_nuevo@gov.com",
+      "phone": "138198313",
+      "comments": "Karen desea una REST API",
+      "id": 22
+    },
+    {
+      "id": 42,
+      "name": "Miguel",
+      "phone": 319381983,
+      "email": "miguel@gov.com",
+      "company": "Ministerio de defensa"
+    },
+    {
+      "id": 52,
+      "name": "Pedro",
+      "phone": 1398198938,
+      "email": "pedro@gov.com",
+      "company": "Ministerio de defensa"
+    }
+  ]
+}
